@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+.navbar {
+  background-color: $colour3;
+  display: flex;
+  height: $navbar-height;
+  justify-content: space-between;
+  padding: $padding1;
+  position: fixed;
+  width: 100%;
+  .navbar-links-box {
+    .navbar-links {
+      display: flex;
+      justify-content: space-between;
+      .navbar-link {
+        font-size: 28px;
+        margin-left: 12px;
+      }
+    }
+  }
+  * {
+    color: $colour2;
+  }
+}

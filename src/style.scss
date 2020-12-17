@@ -1,0 +1,21 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  color: $colour1;
+  font-family: $font1;
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+.app {
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.route-box {
+  margin-top: $navbar-height;
+  padding: $padding1;
+}
